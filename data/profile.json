@@ -1,0 +1,328 @@
+{
+  "source_file": "diabetic_data.csv",
+  "n_rows": 101766,
+  "n_cols": 50,
+  "columns": [
+    "encounter_id",
+    "patient_nbr",
+    "race",
+    "gender",
+    "age",
+    "weight",
+    "admission_type_id",
+    "discharge_disposition_id",
+    "admission_source_id",
+    "time_in_hospital",
+    "payer_code",
+    "medical_specialty",
+    "num_lab_procedures",
+    "num_procedures",
+    "num_medications",
+    "number_outpatient",
+    "number_emergency",
+    "number_inpatient",
+    "diag_1",
+    "diag_2",
+    "diag_3",
+    "number_diagnoses",
+    "max_glu_serum",
+    "A1Cresult",
+    "metformin",
+    "repaglinide",
+    "nateglinide",
+    "chlorpropamide",
+    "glimepiride",
+    "acetohexamide",
+    "glipizide",
+    "glyburide",
+    "tolbutamide",
+    "pioglitazone",
+    "rosiglitazone",
+    "acarbose",
+    "miglitol",
+    "troglitazone",
+    "tolazamide",
+    "examide",
+    "citoglipton",
+    "insulin",
+    "glyburide-metformin",
+    "glipizide-metformin",
+    "glimepiride-pioglitazone",
+    "metformin-rosiglitazone",
+    "metformin-pioglitazone",
+    "change",
+    "diabetesMed",
+    "readmitted"
+  ],
+  "readmitted_counts": {
+    "NO": 54864,
+    ">30": 35545,
+    "<30": 11357
+  },
+  "gender_counts": {
+    "Female": 54708,
+    "Male": 47055,
+    "Unknown/Invalid": 3
+  },
+  "age_counts": {
+    "[0-10)": 161,
+    "[10-20)": 691,
+    "[20-30)": 1657,
+    "[30-40)": 3775,
+    "[40-50)": 9685,
+    "[50-60)": 17256,
+    "[60-70)": 22483,
+    "[70-80)": 26068,
+    "[80-90)": 17197,
+    "[90-100)": 2793
+  },
+  "race_counts": {
+    "Caucasian": 76099,
+    "AfricanAmerican": 19210,
+    "?": 2273,
+    "Hispanic": 2037,
+    "Other": 1506,
+    "Asian": 641
+  },
+  "patient_nbr_unique": 71518,
+  "encounters_total": 101766,
+  "encounters_per_patient": {
+    "mean": 1.4229,
+    "median": 1.0,
+    "min": 1,
+    "max": 40,
+    "patients_with_1_encounter": 54745,
+    "patients_with_gt1_encounter": 16773,
+    "distribution_1_to_5plus": {
+      "1": 54745,
+      "2": 10434,
+      "3": 3328,
+      "4": 1421,
+      "5+": 1590
+    }
+  },
+  "A1Cresult": {
+    "value_counts": {
+      "None": 84748,
+      ">8": 8216,
+      "Norm": 4990,
+      ">7": 3812
+    },
+    "none_count": 84748,
+    "none_pct": 83.28
+  },
+  "max_glu_serum": {
+    "value_counts": {
+      "None": 96420,
+      "Norm": 2597,
+      ">200": 1485,
+      ">300": 1264
+    },
+    "none_count": 96420,
+    "none_pct": 94.75
+  },
+  "A1Cresult_none_by_gender_race": {
+    "Female | ?": {
+      "n": 1133,
+      "none_pct": 82.52
+    },
+    "Female | AfricanAmerican": {
+      "n": 11728,
+      "none_pct": 82.77
+    },
+    "Female | Asian": {
+      "n": 318,
+      "none_pct": 76.73
+    },
+    "Female | Caucasian": {
+      "n": 39689,
+      "none_pct": 84.67
+    },
+    "Female | Hispanic": {
+      "n": 1092,
+      "none_pct": 76.47
+    },
+    "Female | Other": {
+      "n": 748,
+      "none_pct": 81.15
+    },
+    "Male | ?": {
+      "n": 1138,
+      "none_pct": 80.32
+    },
+    "Male | AfricanAmerican": {
+      "n": 7482,
+      "none_pct": 80.1
+    },
+    "Male | Asian": {
+      "n": 323,
+      "none_pct": 81.11
+    },
+    "Male | Caucasian": {
+      "n": 36410,
+      "none_pct": 83.33
+    },
+    "Male | Hispanic": {
+      "n": 945,
+      "none_pct": 75.24
+    },
+    "Male | Other": {
+      "n": 757,
+      "none_pct": 78.34
+    },
+    "Unknown/Invalid | ?": {
+      "n": 2,
+      "none_pct": 100.0
+    },
+    "Unknown/Invalid | Other": {
+      "n": 1,
+      "none_pct": 100.0
+    }
+  },
+  "max_glu_serum_none_by_gender_race": {
+    "Female | ?": {
+      "n": 1133,
+      "none_pct": 97.79
+    },
+    "Female | AfricanAmerican": {
+      "n": 11728,
+      "none_pct": 97.83
+    },
+    "Female | Asian": {
+      "n": 318,
+      "none_pct": 95.6
+    },
+    "Female | Caucasian": {
+      "n": 39689,
+      "none_pct": 93.82
+    },
+    "Female | Hispanic": {
+      "n": 1092,
+      "none_pct": 89.19
+    },
+    "Female | Other": {
+      "n": 748,
+      "none_pct": 95.32
+    },
+    "Male | ?": {
+      "n": 1138,
+      "none_pct": 97.28
+    },
+    "Male | AfricanAmerican": {
+      "n": 7482,
+      "none_pct": 97.27
+    },
+    "Male | Asian": {
+      "n": 323,
+      "none_pct": 96.28
+    },
+    "Male | Caucasian": {
+      "n": 36410,
+      "none_pct": 94.24
+    },
+    "Male | Hispanic": {
+      "n": 945,
+      "none_pct": 92.8
+    },
+    "Male | Other": {
+      "n": 757,
+      "none_pct": 95.38
+    },
+    "Unknown/Invalid | ?": {
+      "n": 2,
+      "none_pct": 100.0
+    },
+    "Unknown/Invalid | Other": {
+      "n": 1,
+      "none_pct": 100.0
+    }
+  },
+  "diag_1_top15_first3": {
+    "250": 8757,
+    "428": 6862,
+    "414": 6581,
+    "786": 4016,
+    "410": 3614,
+    "486": 3508,
+    "427": 2766,
+    "491": 2275,
+    "715": 2151,
+    "682": 2042,
+    "434": 2028,
+    "780": 2019,
+    "996": 1967,
+    "276": 1889,
+    "38": 1688
+  },
+  "num_lab_procedures_summary": {
+    "mean": 43.0956,
+    "std": 19.6744,
+    "min": 1.0,
+    "p25": 31.0,
+    "median": 44.0,
+    "p75": 57.0,
+    "max": 132.0
+  },
+  "num_medications_summary": {
+    "mean": 16.0218,
+    "std": 8.1276,
+    "min": 1.0,
+    "p25": 10.0,
+    "median": 15.0,
+    "p75": 20.0,
+    "max": 81.0
+  },
+  "time_in_hospital_summary": {
+    "mean": 4.396,
+    "std": 2.9851,
+    "min": 1.0,
+    "p25": 2.0,
+    "median": 4.0,
+    "p75": 6.0,
+    "max": 14.0
+  },
+  "missing_question_mark": {
+    "weight": {
+      "count": 98569,
+      "pct": 96.86
+    },
+    "medical_specialty": {
+      "count": 49949,
+      "pct": 49.08
+    },
+    "payer_code": {
+      "count": 40256,
+      "pct": 39.56
+    },
+    "race": {
+      "count": 2273,
+      "pct": 2.23
+    },
+    "diag_3": {
+      "count": 1423,
+      "pct": 1.4
+    },
+    "diag_2": {
+      "count": 358,
+      "pct": 0.35
+    },
+    "diag_1": {
+      "count": 21,
+      "pct": 0.02
+    }
+  },
+  "files": {
+    "diabetes+130-us+hospitals+for+years+1999-2008.zip": {
+      "bytes": 3170254,
+      "sha256": "f82ac129da2ddd2299391ff6fbae3a6a58b3edcf59ac9d7bd480c00fe453112a"
+    },
+    "diabetic_data.csv": {
+      "bytes": 19159383,
+      "sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97"
+    },
+    "IDS_mapping.csv": {
+      "bytes": 2547,
+      "sha256": "f1bb82b471cb34649352597572c9b1fb00bd27f77b9f5a22a03dc3eb1039749e"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Runtime: readmission/, adapters/, scripts/ and the notebook
+numpy>=1.26
+pandas>=2.2
+# The saved results were produced with scikit-learn 1.6.x (see readmission/splits.py and the
+# version check in the notebook); keep it below 1.7 for reproducibility.
+scikit-learn>=1.6,<1.7
+scipy
+joblib
+threadpoolctl
+statsmodels>=0.14
+fairlearn>=0.13
+matplotlib>=3.8
+
+# Slides (slides/build_slides.py); python-pptx also installs lxml and Pillow.
+# The optional --pdf export additionally needs PowerPoint and pywin32 (Windows only).
+python-pptx>=1.0
+
+# Tests and lint
+pytest>=8.0
+pytest-cov>=5.0
+ruff>=0.5

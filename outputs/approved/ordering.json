@@ -1,0 +1,2221 @@
+{
+ "references": {
+  "sex": "Female",
+  "age_band": "60-79",
+  "race": "Caucasian",
+  "diag_1_group": "circulatory"
+ },
+ "all_encounters": {
+  "hba1c_requested": {
+   "outcome": "hba1c_requested",
+   "n": 98470,
+   "n_patients": 69303,
+   "rate": 0.1664263227378897,
+   "events": 16388,
+   "terms": {
+    "sex=Male": {
+     "covariate": "sex",
+     "level": "Male",
+     "reference": "Female",
+     "odds_ratio": 1.0707113510903674,
+     "ci": [
+      1.0322225749163276,
+      1.1106352691876455
+     ],
+     "p": 0.0002543089654587374,
+     "p_model_based": 9.741343715978885e-05,
+     "se_ratio": 1.065356042210955,
+     "n_level": 45505,
+     "tested": true,
+     "q": 0.0005086179309174748
+    },
+    "age_band=20-39": {
+     "covariate": "age_band",
+     "level": "20-39",
+     "reference": "60-79",
+     "odds_ratio": 1.600578082479832,
+     "ci": [
+      1.4803609306790466,
+      1.7305578288530528
+     ],
+     "p": 3.5804497262388987e-32,
+     "p_model_based": 5.34023220275918e-39,
+     "se_ratio": 1.1063740354950866,
+     "n_level": 5412,
+     "tested": true,
+     "q": 1.9095731873274126e-31
+    },
+    "age_band=40-59": {
+     "covariate": "age_band",
+     "level": "40-59",
+     "reference": "60-79",
+     "odds_ratio": 1.4569179005266755,
+     "ci": [
+      1.3968983891120936,
+      1.5195162263908428
+     ],
+     "p": 8.06603182620785e-69,
+     "p_model_based": 1.1092067595378321e-76,
+     "se_ratio": 1.057080157739278,
+     "n_level": 26663,
+     "tested": true,
+     "q": 1.290565092193256e-67
+    },
+    "age_band=80+": {
+     "covariate": "age_band",
+     "level": "80+",
+     "reference": "60-79",
+     "odds_ratio": 0.8815456745753235,
+     "ci": [
+      0.8366723806083216,
+      0.9288256602870498
+     ],
+     "p": 2.246472512770884e-06,
+     "p_model_based": 6.866711652377283e-07,
+     "se_ratio": 1.0497287198848477,
+     "n_level": 19018,
+     "tested": true,
+     "q": 7.188712040866829e-06
+    },
+    "race=AfricanAmerican": {
+     "covariate": "race",
+     "level": "AfricanAmerican",
+     "reference": "Caucasian",
+     "odds_ratio": 1.023935331470552,
+     "ci": [
+      0.97666611493984,
+      1.073492309189298
+     ],
+     "p": 0.3266556949790511,
+     "p_model_based": 0.2883419234461868,
+     "se_ratio": 1.0824711420188216,
+     "n_level": 18538,
+     "tested": true,
+     "q": 0.34843274131098784
+    },
+    "race=Asian": {
+     "covariate": "race",
+     "level": "Asian",
+     "reference": "Caucasian",
+     "odds_ratio": 1.4203384552180776,
+     "ci": [
+      1.1532999139241074,
+      1.7492079059532708
+     ],
+     "p": 0.0009592999853061453,
+     "p_model_based": 0.0004784800932473719,
+     "se_ratio": 1.0576355952211438,
+     "n_level": 624,
+     "tested": true,
+     "q": 0.001705422196099814
+    },
+    "race=Hispanic": {
+     "covariate": "race",
+     "level": "Hispanic",
+     "reference": "Caucasian",
+     "odds_ratio": 1.4749763473438366,
+     "ci": [
+      1.317986224275697,
+      1.6506661337976796
+     ],
+     "p": 1.299826223069424e-11,
+     "p_model_based": 1.0711858738914653e-12,
+     "se_ratio": 1.0520603276779372,
+     "n_level": 1990,
+     "tested": true,
+     "q": 5.199304892277696e-11
+    },
+    "race=Other": {
+     "covariate": "race",
+     "level": "Other",
+     "reference": "Caucasian",
+     "odds_ratio": 1.2489435417425372,
+     "ci": [
+      1.0895824474933251,
+      1.4316126090769725
+     ],
+     "p": 0.0014137370946665894,
+     "p_model_based": 0.0008984702529498731,
+     "se_ratio": 1.0403208464939828,
+     "n_level": 1457,
+     "tested": true,
+     "q": 0.0022619793514665433
+    },
+    "race=Unknown": {
+     "covariate": "race",
+     "level": "Unknown",
+     "reference": "Caucasian",
+     "odds_ratio": 1.1981239112328013,
+     "ci": [
+      1.0716599636792776,
+      1.3395115571354839
+     ],
+     "p": 0.0014931974247343002,
+     "p_model_based": 0.0012168061595244114,
+     "se_ratio": 1.0185480780453655,
+     "n_level": 2221,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=diabetes": {
+     "covariate": "diag_1_group",
+     "level": "diabetes",
+     "reference": "circulatory",
+     "odds_ratio": 1.6811271768208031,
+     "ci": [
+      1.5813571473477497,
+      1.78719183669898
+     ],
+     "p": 3.5002301560355565e-62,
+     "p_model_based": 3.560154492635228e-67,
+     "se_ratio": 1.0405471769040935,
+     "n_level": 8051,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=digestive": {
+     "covariate": "diag_1_group",
+     "level": "digestive",
+     "reference": "circulatory",
+     "odds_ratio": 0.5971663832068905,
+     "ci": [
+      0.5555623288245305,
+      0.6418860148183847
+     ],
+     "p": 1.728729141164548e-44,
+     "p_model_based": 2.5702895778726225e-47,
+     "se_ratio": 1.0325627256337917,
+     "n_level": 9314,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=genitourinary": {
+     "covariate": "diag_1_group",
+     "level": "genitourinary",
+     "reference": "circulatory",
+     "odds_ratio": 0.7621617372460889,
+     "ci": [
+      0.6995480409465596,
+      0.8303797305128213
+     ],
+     "p": 5.309744271545695e-10,
+     "p_model_based": 4.960248639290339e-10,
+     "se_ratio": 1.0017217277667565,
+     "n_level": 4990,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=injury": {
+     "covariate": "diag_1_group",
+     "level": "injury",
+     "reference": "circulatory",
+     "odds_ratio": 0.5792272382500606,
+     "ci": [
+      0.5333395526062066,
+      0.6290630272803213
+     ],
+     "p": 1.8805246329309797e-38,
+     "p_model_based": 1.5185848300466452e-39,
+     "se_ratio": 1.0147700950383691,
+     "n_level": 6825,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=musculoskeletal": {
+     "covariate": "diag_1_group",
+     "level": "musculoskeletal",
+     "reference": "circulatory",
+     "odds_ratio": 0.5067519526281953,
+     "ci": [
+      0.4588967844067213,
+      0.5595976049919067
+     ],
+     "p": 4.0084854242901017e-41,
+     "p_model_based": 4.104611675973945e-42,
+     "se_ratio": 1.0124879398105562,
+     "n_level": 4932,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=neoplasms": {
+     "covariate": "diag_1_group",
+     "level": "neoplasms",
+     "reference": "circulatory",
+     "odds_ratio": 0.48296132732690383,
+     "ci": [
+      0.42617730791379493,
+      0.547311270126437
+     ],
+     "p": 3.9665308348426836e-30,
+     "p_model_based": 1.0898983696619115e-30,
+     "se_ratio": 1.0098099711247943,
+     "n_level": 3128,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=other": {
+     "covariate": "diag_1_group",
+     "level": "other",
+     "reference": "circulatory",
+     "odds_ratio": 0.8832177043468091,
+     "ci": [
+      0.8387891998384885,
+      0.9299994723606994
+     ],
+     "p": 2.407164036991489e-06,
+     "p_model_based": 1.3864059030214796e-06,
+     "se_ratio": 1.0235609697322707,
+     "n_level": 17677,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=respiratory": {
+     "covariate": "diag_1_group",
+     "level": "respiratory",
+     "reference": "circulatory",
+     "odds_ratio": 0.9734275700520298,
+     "ci": [
+      0.9222139956402419,
+      1.0274852025852854
+     ],
+     "p": 0.32873031240060857,
+     "p_model_based": 0.32162425817046636,
+     "se_ratio": 1.0147961978132034,
+     "n_level": 13879,
+     "tested": false,
+     "q": null
+    }
+   }
+  },
+  "glucose_requested": {
+   "outcome": "glucose_requested",
+   "n": 98470,
+   "n_patients": 69303,
+   "rate": 0.05215801767035645,
+   "events": 5136,
+   "terms": {
+    "sex=Male": {
+     "covariate": "sex",
+     "level": "Male",
+     "reference": "Female",
+     "odds_ratio": 0.972775051488604,
+     "ci": [
+      0.8922223188502173,
+      1.060600346803828
+     ],
+     "p": 0.5313919966067886,
+     "p_model_based": 0.3443119777397433,
+     "se_ratio": 1.5109539953265407,
+     "n_level": 45505,
+     "tested": true,
+     "q": 0.5313919966067886
+    },
+    "age_band=20-39": {
+     "covariate": "age_band",
+     "level": "20-39",
+     "reference": "60-79",
+     "odds_ratio": 0.8238662533324235,
+     "ci": [
+      0.6347975517433828,
+      1.0692473553432862
+     ],
+     "p": 0.14522825275504972,
+     "p_model_based": 0.006919261061090413,
+     "se_ratio": 1.8541225477561334,
+     "n_level": 5412,
+     "tested": true,
+     "q": 0.17874246492929197
+    },
+    "age_band=40-59": {
+     "covariate": "age_band",
+     "level": "40-59",
+     "reference": "60-79",
+     "odds_ratio": 0.8788442826101341,
+     "ci": [
+      0.7900293855088141,
+      0.977643727238174
+     ],
+     "p": 0.017505363810759914,
+     "p_model_based": 0.0004321420246344332,
+     "se_ratio": 1.4813788836146142,
+     "n_level": 26663,
+     "tested": true,
+     "q": 0.02546234736110533
+    },
+    "age_band=80+": {
+     "covariate": "age_band",
+     "level": "80+",
+     "reference": "60-79",
+     "odds_ratio": 1.262279257886327,
+     "ci": [
+      1.1402825386150741,
+      1.397328180457146
+     ],
+     "p": 7.077694780569917e-06,
+     "p_model_based": 1.1970474353657946e-10,
+     "se_ratio": 1.433805637734138,
+     "n_level": 19018,
+     "tested": true,
+     "q": 1.8873852748186446e-05
+    },
+    "race=AfricanAmerican": {
+     "covariate": "race",
+     "level": "AfricanAmerican",
+     "reference": "Caucasian",
+     "odds_ratio": 0.4086758471872011,
+     "ci": [
+      0.35407763494688715,
+      0.4716930175474921
+     ],
+     "p": 2.152362597812124e-34,
+     "p_model_based": 8.6378135562754e-70,
+     "se_ratio": 1.4439422232586752,
+     "n_level": 18538,
+     "tested": true,
+     "q": 1.7218900782496992e-33
+    },
+    "race=Asian": {
+     "covariate": "race",
+     "level": "Asian",
+     "reference": "Caucasian",
+     "odds_ratio": 0.7012319198126954,
+     "ci": [
+      0.44978937391225327,
+      1.0932365989155768
+     ],
+     "p": 0.11722900866949836,
+     "p_model_based": 0.07784922671239862,
+     "se_ratio": 1.125624969725794,
+     "n_level": 624,
+     "tested": true,
+     "q": 0.15630534489266448
+    },
+    "race=Hispanic": {
+     "covariate": "race",
+     "level": "Hispanic",
+     "reference": "Caucasian",
+     "odds_ratio": 1.6647502568359775,
+     "ci": [
+      1.3074146549000856,
+      2.119750920068467
+     ],
+     "p": 3.5603212362450675e-05,
+     "p_model_based": 1.3850254405446789e-10,
+     "se_ratio": 1.5522638771780781,
+     "n_level": 1990,
+     "tested": true,
+     "q": 8.137877111417297e-05
+    },
+    "race=Other": {
+     "covariate": "race",
+     "level": "Other",
+     "reference": "Caucasian",
+     "odds_ratio": 0.811516936002616,
+     "ci": [
+      0.5822449492164992,
+      1.1310699016028702
+     ],
+     "p": 0.21761483620199196,
+     "p_model_based": 0.09377080113734779,
+     "se_ratio": 1.359266737711221,
+     "n_level": 1457,
+     "tested": true,
+     "q": 0.24870266994513365
+    },
+    "race=Unknown": {
+     "covariate": "race",
+     "level": "Unknown",
+     "reference": "Caucasian",
+     "odds_ratio": 0.39863285427323863,
+     "ci": [
+      0.2958734658901005,
+      0.5370814582104301
+     ],
+     "p": 1.4774475195636074e-09,
+     "p_model_based": 3.431745850838228e-11,
+     "se_ratio": 1.0959078266486,
+     "n_level": 2221,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=diabetes": {
+     "covariate": "diag_1_group",
+     "level": "diabetes",
+     "reference": "circulatory",
+     "odds_ratio": 1.549006451222808,
+     "ci": [
+      1.3614432575984798,
+      1.762409834224263
+     ],
+     "p": 3.0245525610212276e-11,
+     "p_model_based": 2.1004056875612407e-14,
+     "se_ratio": 1.1503237098513892,
+     "n_level": 8051,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=digestive": {
+     "covariate": "diag_1_group",
+     "level": "digestive",
+     "reference": "circulatory",
+     "odds_ratio": 1.5771218087314909,
+     "ci": [
+      1.3992388763244459,
+      1.7776187051850811
+     ],
+     "p": 8.542551036097992e-14,
+     "p_model_based": 3.4132052856638683e-19,
+     "se_ratio": 1.2000628956118806,
+     "n_level": 9314,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=genitourinary": {
+     "covariate": "diag_1_group",
+     "level": "genitourinary",
+     "reference": "circulatory",
+     "odds_ratio": 0.962844594520738,
+     "ci": [
+      0.8238184375429755,
+      1.1253325623092074
+     ],
+     "p": 0.6341552698281137,
+     "p_model_based": 0.618399274825824,
+     "se_ratio": 1.0467208305928142,
+     "n_level": 4990,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=injury": {
+     "covariate": "diag_1_group",
+     "level": "injury",
+     "reference": "circulatory",
+     "odds_ratio": 0.9556444665300604,
+     "ci": [
+      0.8339990935237422,
+      1.0950327806123992
+     ],
+     "p": 0.5136902968605837,
+     "p_model_based": 0.49713040317605617,
+     "se_ratio": 1.039671302631915,
+     "n_level": 6825,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=musculoskeletal": {
+     "covariate": "diag_1_group",
+     "level": "musculoskeletal",
+     "reference": "circulatory",
+     "odds_ratio": 0.7809205142810508,
+     "ci": [
+      0.6566897587762804,
+      0.9286529011224289
+     ],
+     "p": 0.005153280272724282,
+     "p_model_based": 0.002929655638450659,
+     "se_ratio": 1.063536868634981,
+     "n_level": 4932,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=neoplasms": {
+     "covariate": "diag_1_group",
+     "level": "neoplasms",
+     "reference": "circulatory",
+     "odds_ratio": 0.9344114349075627,
+     "ci": [
+      0.7652649107635445,
+      1.1409444199066288
+     ],
+     "p": 0.5055258558137513,
+     "p_model_based": 0.47442005240081775,
+     "se_ratio": 1.0743224522805126,
+     "n_level": 3128,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=other": {
+     "covariate": "diag_1_group",
+     "level": "other",
+     "reference": "circulatory",
+     "odds_ratio": 1.3287557291310348,
+     "ci": [
+      1.2066247732692241,
+      1.463248415590591
+     ],
+     "p": 7.552561444209294e-09,
+     "p_model_based": 1.0156150967036011e-10,
+     "se_ratio": 1.1188020789193838,
+     "n_level": 17677,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=respiratory": {
+     "covariate": "diag_1_group",
+     "level": "respiratory",
+     "reference": "circulatory",
+     "odds_ratio": 1.6699791851509798,
+     "ci": [
+      1.5125302479631355,
+      1.8438179881646253
+     ],
+     "p": 3.32572818985138e-24,
+     "p_model_based": 1.6005529328542287e-31,
+     "se_ratio": 1.1508438705765534,
+     "n_level": 13879,
+     "tested": false,
+     "q": null
+    }
+   }
+  }
+ },
+ "first_encounters": {
+  "hba1c_requested": {
+   "outcome": "hba1c_requested",
+   "n": 69303,
+   "n_patients": 69303,
+   "rate": 0.1802086489762348,
+   "events": 12489,
+   "terms": {
+    "sex=Male": {
+     "covariate": "sex",
+     "level": "Male",
+     "reference": "Female",
+     "odds_ratio": 1.0785784251870032,
+     "ci": [
+      1.0364694285279352,
+      1.1223981984023579
+     ],
+     "p": 0.00019695720314186522,
+     "p_model_based": 0.00019595577264741143,
+     "se_ratio": 1.00034552365489,
+     "n_level": 32442,
+     "tested": true,
+     "q": 0.00039391440628373044
+    },
+    "age_band=20-39": {
+     "covariate": "age_band",
+     "level": "20-39",
+     "reference": "60-79",
+     "odds_ratio": 1.551673771985633,
+     "ci": [
+      1.4288618796702335,
+      1.68504145076905
+     ],
+     "p": 1.57914706136821e-25,
+     "p_model_based": 1.0208294237391533e-25,
+     "se_ratio": 1.0039570754635128,
+     "n_level": 3824,
+     "tested": true,
+     "q": 8.422117660630454e-25
+    },
+    "age_band=40-59": {
+     "covariate": "age_band",
+     "level": "40-59",
+     "reference": "60-79",
+     "odds_ratio": 1.4095564678374033,
+     "ci": [
+      1.3463262129278746,
+      1.4757563337502189
+     ],
+     "p": 1.1708573316529342e-48,
+     "p_model_based": 1.4051019431503132e-48,
+     "se_ratio": 0.9991549039763251,
+     "n_level": 19177,
+     "tested": true,
+     "q": 1.8733717306446947e-47
+    },
+    "age_band=80+": {
+     "covariate": "age_band",
+     "level": "80+",
+     "reference": "60-79",
+     "odds_ratio": 0.884332157431574,
+     "ci": [
+      0.8344494266872695,
+      0.9371968386056213
+     ],
+     "p": 3.33169505631105e-05,
+     "p_model_based": 3.2665243050804106e-05,
+     "se_ratio": 1.0010892818438986,
+     "n_level": 12869,
+     "tested": true,
+     "q": 7.615302985853829e-05
+    },
+    "race=AfricanAmerican": {
+     "covariate": "race",
+     "level": "AfricanAmerican",
+     "reference": "Caucasian",
+     "odds_ratio": 1.0524119435007695,
+     "ci": [
+      0.9998928457788318,
+      1.107689592438641
+     ],
+     "p": 0.050481508995121646,
+     "p_model_based": 0.050851562597379545,
+     "se_ratio": 0.9983992246562221,
+     "n_level": 12453,
+     "tested": true,
+     "q": 0.06213108799399587
+    },
+    "race=Asian": {
+     "covariate": "race",
+     "level": "Asian",
+     "reference": "Caucasian",
+     "odds_ratio": 1.360484640303931,
+     "ci": [
+      1.0898234900793964,
+      1.698365353061047
+     ],
+     "p": 0.006528850792788015,
+     "p_model_based": 0.006267047280741125,
+     "se_ratio": 1.0049652357069874,
+     "n_level": 484,
+     "tested": true,
+     "q": 0.00870513439038402
+    },
+    "race=Hispanic": {
+     "covariate": "race",
+     "level": "Hispanic",
+     "reference": "Caucasian",
+     "odds_ratio": 1.4876183081529588,
+     "ci": [
+      1.3168933489287804,
+      1.6804764277623778
+     ],
+     "p": 1.7035453503286624e-10,
+     "p_model_based": 1.4028654053936496e-10,
+     "se_ratio": 1.0046426007790201,
+     "n_level": 1476,
+     "tested": true,
+     "q": 5.45134512105172e-10
+    },
+    "race=Other": {
+     "covariate": "race",
+     "level": "Other",
+     "reference": "Caucasian",
+     "odds_ratio": 1.236366488060442,
+     "ci": [
+      1.06931262298318,
+      1.429518421408325
+     ],
+     "p": 0.004172518273929006,
+     "p_model_based": 0.004214871576667841,
+     "se_ratio": 0.9988830764022918,
+     "n_level": 1137,
+     "tested": true,
+     "q": 0.00667602923828641
+    },
+    "race=Unknown": {
+     "covariate": "race",
+     "level": "Unknown",
+     "reference": "Caucasian",
+     "odds_ratio": 1.162664902227341,
+     "ci": [
+      1.035290271648676,
+      1.3057107865204007
+     ],
+     "p": 0.010903049599935986,
+     "p_model_based": 0.011133045018511778,
+     "se_ratio": 0.9971340866679442,
+     "n_level": 1907,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=diabetes": {
+     "covariate": "diag_1_group",
+     "level": "diabetes",
+     "reference": "circulatory",
+     "odds_ratio": 1.8587538831700163,
+     "ci": [
+      1.7347318777903806,
+      1.9916426523506257
+     ],
+     "p": 2.691455374807112e-69,
+     "p_model_based": 5.541200834962006e-69,
+     "se_ratio": 0.9976721867286381,
+     "n_level": 5239,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=digestive": {
+     "covariate": "diag_1_group",
+     "level": "digestive",
+     "reference": "circulatory",
+     "odds_ratio": 0.6022617989206228,
+     "ci": [
+      0.5556716746079838,
+      0.6527582581836595
+     ],
+     "p": 5.286620289238048e-35,
+     "p_model_based": 7.626748437393855e-35,
+     "se_ratio": 0.9976072861273596,
+     "n_level": 6474,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=genitourinary": {
+     "covariate": "diag_1_group",
+     "level": "genitourinary",
+     "reference": "circulatory",
+     "odds_ratio": 0.7686920992159123,
+     "ci": [
+      0.6962249579227506,
+      0.8487020418801585
+     ],
+     "p": 1.9178799855455304e-07,
+     "p_model_based": 1.929956835387026e-07,
+     "se_ratio": 0.9997761988662154,
+     "n_level": 3432,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=injury": {
+     "covariate": "diag_1_group",
+     "level": "injury",
+     "reference": "circulatory",
+     "odds_ratio": 0.5923888218928604,
+     "ci": [
+      0.5390436997082897,
+      0.6510131117264116
+     ],
+     "p": 1.5191780893972979e-27,
+     "p_model_based": 1.1148815879678586e-27,
+     "se_ratio": 1.0025915118867474,
+     "n_level": 4677,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=musculoskeletal": {
+     "covariate": "diag_1_group",
+     "level": "musculoskeletal",
+     "reference": "circulatory",
+     "odds_ratio": 0.4574319845701448,
+     "ci": [
+      0.4101489651162481,
+      0.5101659111793085
+     ],
+     "p": 7.726821525320669e-45,
+     "p_model_based": 5.6050268108534747e-45,
+     "se_ratio": 1.0016169288484105,
+     "n_level": 4061,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=neoplasms": {
+     "covariate": "diag_1_group",
+     "level": "neoplasms",
+     "reference": "circulatory",
+     "odds_ratio": 0.45455255482186085,
+     "ci": [
+      0.3966774159975328,
+      0.5208716623695208
+     ],
+     "p": 7.695842056096338e-30,
+     "p_model_based": 6.0689389001694084e-30,
+     "se_ratio": 1.0018289923690435,
+     "n_level": 2535,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=other": {
+     "covariate": "diag_1_group",
+     "level": "other",
+     "reference": "circulatory",
+     "odds_ratio": 0.8961398813667452,
+     "ci": [
+      0.8448025641371286,
+      0.9505968862632973
+     ],
+     "p": 0.00026923669812482423,
+     "p_model_based": 0.0002487292853406758,
+     "se_ratio": 1.005581164142105,
+     "n_level": 12040,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=respiratory": {
+     "covariate": "diag_1_group",
+     "level": "respiratory",
+     "reference": "circulatory",
+     "odds_ratio": 1.0051750133395014,
+     "ci": [
+      0.9451188483645343,
+      1.0690473575788455
+     ],
+     "p": 0.8695617291670559,
+     "p_model_based": 0.8696722774733424,
+     "se_ratio": 0.9991448360584542,
+     "n_level": 9460,
+     "tested": false,
+     "q": null
+    }
+   }
+  },
+  "glucose_requested": {
+   "outcome": "glucose_requested",
+   "n": 69303,
+   "n_patients": 69303,
+   "rate": 0.048165303089332354,
+   "events": 3338,
+   "terms": {
+    "sex=Male": {
+     "covariate": "sex",
+     "level": "Male",
+     "reference": "Female",
+     "odds_ratio": 0.9802473406440447,
+     "ci": [
+      0.9129356046922183,
+      1.0525220441628726
+     ],
+     "p": 0.5825585134978553,
+     "p_model_based": 0.5808215027418855,
+     "se_ratio": 1.0046097966728902,
+     "n_level": 32442,
+     "tested": true,
+     "q": 0.5825585134978553
+    },
+    "age_band=20-39": {
+     "covariate": "age_band",
+     "level": "20-39",
+     "reference": "60-79",
+     "odds_ratio": 0.7760034327137304,
+     "ci": [
+      0.6504674740528881,
+      0.9257670085046111
+     ],
+     "p": 0.004852597718327792,
+     "p_model_based": 0.004496065106228798,
+     "se_ratio": 1.008671066123621,
+     "n_level": 3824,
+     "tested": true,
+     "q": 0.007058323953931334
+    },
+    "age_band=40-59": {
+     "covariate": "age_band",
+     "level": "40-59",
+     "reference": "60-79",
+     "odds_ratio": 0.8715832203048867,
+     "ci": [
+      0.7978796016137237,
+      0.9520951637071784
+     ],
+     "p": 0.0022964861351584772,
+     "p_model_based": 0.0023782675249567477,
+     "se_ratio": 0.9965470062756051,
+     "n_level": 19177,
+     "tested": true,
+     "q": 0.004082642018059515
+    },
+    "age_band=80+": {
+     "covariate": "age_band",
+     "level": "80+",
+     "reference": "60-79",
+     "odds_ratio": 1.3421420471153507,
+     "ci": [
+      1.2292578540167194,
+      1.4653925283038978
+     ],
+     "p": 5.212787589658996e-11,
+     "p_model_based": 5.0452772071884614e-11,
+     "se_ratio": 1.0007411509080693,
+     "n_level": 12869,
+     "tested": true,
+     "q": 2.0851150358635983e-10
+    },
+    "race=AfricanAmerican": {
+     "covariate": "race",
+     "level": "AfricanAmerican",
+     "reference": "Caucasian",
+     "odds_ratio": 0.4469511646659207,
+     "ci": [
+      0.39575645074466415,
+      0.5047683827271546
+     ],
+     "p": 1.7037142699295707e-38,
+     "p_model_based": 2.6920142642266825e-38,
+     "se_ratio": 0.9972946824719126,
+     "n_level": 12453,
+     "tested": true,
+     "q": 1.3629714159436566e-37
+    },
+    "race=Asian": {
+     "covariate": "race",
+     "level": "Asian",
+     "reference": "Caucasian",
+     "odds_ratio": 0.8440255996228377,
+     "ci": [
+      0.5479653486914378,
+      1.3000442719961756
+     ],
+     "p": 0.44165920081182775,
+     "p_model_based": 0.43992979331756366,
+     "se_ratio": 1.003791755666742,
+     "n_level": 484,
+     "tested": true,
+     "q": 0.4711031475326163
+    },
+    "race=Hispanic": {
+     "covariate": "race",
+     "level": "Hispanic",
+     "reference": "Caucasian",
+     "odds_ratio": 1.6964927544858759,
+     "ci": [
+      1.4049944018863731,
+      2.048469134224946
+     ],
+     "p": 3.9078415328348687e-08,
+     "p_model_based": 3.7420091303131075e-08,
+     "se_ratio": 1.0013917088674975,
+     "n_level": 1476,
+     "tested": true,
+     "q": 1.0420910754226317e-07
+    },
+    "race=Other": {
+     "covariate": "race",
+     "level": "Other",
+     "reference": "Caucasian",
+     "odds_ratio": 0.8844779236151841,
+     "ci": [
+      0.6686532763937864,
+      1.1699653990806305
+     ],
+     "p": 0.38972739417122937,
+     "p_model_based": 0.3886557909884031,
+     "se_ratio": 1.0022622808825499,
+     "n_level": 1137,
+     "tested": true,
+     "q": 0.4454027361956907
+    },
+    "race=Unknown": {
+     "covariate": "race",
+     "level": "Unknown",
+     "reference": "Caucasian",
+     "odds_ratio": 0.4651517438003571,
+     "ci": [
+      0.3492544121544182,
+      0.6195086940371984
+     ],
+     "p": 1.6503977811952677e-07,
+     "p_model_based": 1.6519211906583947e-07,
+     "se_ratio": 0.9999674462880751,
+     "n_level": 1907,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=diabetes": {
+     "covariate": "diag_1_group",
+     "level": "diabetes",
+     "reference": "circulatory",
+     "odds_ratio": 1.7217232632032904,
+     "ci": [
+      1.4991833858152985,
+      1.9772971226220595
+     ],
+     "p": 1.4252723833691733e-14,
+     "p_model_based": 1.1821155100330174e-14,
+     "se_ratio": 1.0031042762232731,
+     "n_level": 5239,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=digestive": {
+     "covariate": "diag_1_group",
+     "level": "digestive",
+     "reference": "circulatory",
+     "odds_ratio": 1.5743926843733673,
+     "ci": [
+      1.3914306213511487,
+      1.7814128038963406
+     ],
+     "p": 5.985426353628156e-13,
+     "p_model_based": 6.149336711649396e-13,
+     "se_ratio": 0.9994883537746582,
+     "n_level": 6474,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=genitourinary": {
+     "covariate": "diag_1_group",
+     "level": "genitourinary",
+     "reference": "circulatory",
+     "odds_ratio": 0.9636924758969054,
+     "ci": [
+      0.7996376822231593,
+      1.161404982214344
+     ],
+     "p": 0.697701221283282,
+     "p_model_based": 0.6974348081041128,
+     "se_ratio": 1.0009270439018505,
+     "n_level": 3432,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=injury": {
+     "covariate": "diag_1_group",
+     "level": "injury",
+     "reference": "circulatory",
+     "odds_ratio": 1.0008329670544525,
+     "ci": [
+      0.8517284651825356,
+      1.1760398635125449
+     ],
+     "p": 0.9919287796615737,
+     "p_model_based": 0.9919001063576199,
+     "se_ratio": 1.0035526582176058,
+     "n_level": 4677,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=musculoskeletal": {
+     "covariate": "diag_1_group",
+     "level": "musculoskeletal",
+     "reference": "circulatory",
+     "odds_ratio": 0.7929965043101928,
+     "ci": [
+      0.6569135202646376,
+      0.9572697721229059
+     ],
+     "p": 0.015752729554815905,
+     "p_model_based": 0.01571550940340819,
+     "se_ratio": 1.0003568387804487,
+     "n_level": 4061,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=neoplasms": {
+     "covariate": "diag_1_group",
+     "level": "neoplasms",
+     "reference": "circulatory",
+     "odds_ratio": 0.8573346570309947,
+     "ci": [
+      0.6844673358183074,
+      1.0738609071354808
+     ],
+     "p": 0.1803318155791197,
+     "p_model_based": 0.17982747394054455,
+     "se_ratio": 1.001158704548075,
+     "n_level": 2535,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=other": {
+     "covariate": "diag_1_group",
+     "level": "other",
+     "reference": "circulatory",
+     "odds_ratio": 1.4112005017117755,
+     "ci": [
+      1.2685151544866682,
+      1.5699354075414769
+     ],
+     "p": 2.3995023575164154e-10,
+     "p_model_based": 2.01866829747042e-10,
+     "se_ratio": 1.0041999718325514,
+     "n_level": 12040,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=respiratory": {
+     "covariate": "diag_1_group",
+     "level": "respiratory",
+     "reference": "circulatory",
+     "odds_ratio": 1.6153122335457302,
+     "ci": [
+      1.449644295588084,
+      1.7999129991981901
+     ],
+     "p": 3.770899008749595e-18,
+     "p_model_based": 3.662350757950705e-18,
+     "se_ratio": 1.0003821704385647,
+     "n_level": 9460,
+     "tested": false,
+     "q": null
+    }
+   }
+  }
+ },
+ "source_adjusted": {
+  "hba1c_requested": {
+   "outcome": "hba1c_requested",
+   "n": 98470,
+   "n_patients": 69303,
+   "rate": 0.1664263227378897,
+   "events": 16388,
+   "terms": {
+    "sex=Male": {
+     "covariate": "sex",
+     "level": "Male",
+     "reference": "Female",
+     "odds_ratio": 1.0708281724689497,
+     "ci": [
+      1.032327948087111,
+      1.110764246069245
+     ],
+     "p": 0.0002492595445607373,
+     "p_model_based": 9.524870032144444e-05,
+     "se_ratio": 1.0653470473276383,
+     "n_level": 45505,
+     "tested": true,
+     "q": null
+    },
+    "age_band=20-39": {
+     "covariate": "age_band",
+     "level": "20-39",
+     "reference": "60-79",
+     "odds_ratio": 1.6008839937838226,
+     "ci": [
+      1.4806382427914102,
+      1.7308951555388736
+     ],
+     "p": 3.4050765804357737e-32,
+     "p_model_based": 5.1039341582779264e-39,
+     "se_ratio": 1.1062700785032349,
+     "n_level": 5412,
+     "tested": true,
+     "q": null
+    },
+    "age_band=40-59": {
+     "covariate": "age_band",
+     "level": "40-59",
+     "reference": "60-79",
+     "odds_ratio": 1.4572989142287716,
+     "ci": [
+      1.3972611505605534,
+      1.5199163911201297
+     ],
+     "p": 6.59777457307273e-69,
+     "p_model_based": 9.253072799353154e-77,
+     "se_ratio": 1.056947844094976,
+     "n_level": 26663,
+     "tested": true,
+     "q": null
+    },
+    "age_band=80+": {
+     "covariate": "age_band",
+     "level": "80+",
+     "reference": "60-79",
+     "odds_ratio": 0.8815697465378802,
+     "ci": [
+      0.8367036538313356,
+      0.9288416686746356
+     ],
+     "p": 2.2477191716002654e-06,
+     "p_model_based": 6.924288118391808e-07,
+     "se_ratio": 1.0494110537239882,
+     "n_level": 19018,
+     "tested": true,
+     "q": null
+    },
+    "race=AfricanAmerican": {
+     "covariate": "race",
+     "level": "AfricanAmerican",
+     "reference": "Caucasian",
+     "odds_ratio": 1.0158034168012628,
+     "ci": [
+      0.9687769085441305,
+      1.0651126925968801
+     ],
+     "p": 0.516763491868661,
+     "p_model_based": 0.4824456271915466,
+     "se_ratio": 1.0833388125427004,
+     "n_level": 18538,
+     "tested": true,
+     "q": null
+    },
+    "race=Asian": {
+     "covariate": "race",
+     "level": "Asian",
+     "reference": "Caucasian",
+     "odds_ratio": 1.4200435194812533,
+     "ci": [
+      1.1525877790897519,
+      1.7495618414531864
+     ],
+     "p": 0.0009885667667908714,
+     "p_model_based": 0.00048274900885687946,
+     "se_ratio": 1.0596247750490795,
+     "n_level": 624,
+     "tested": true,
+     "q": null
+    },
+    "race=Hispanic": {
+     "covariate": "race",
+     "level": "Hispanic",
+     "reference": "Caucasian",
+     "odds_ratio": 1.4922205895294494,
+     "ci": [
+      1.3331093282679478,
+      1.6703223363598416
+     ],
+     "p": 3.4552384140532538e-12,
+     "p_model_based": 2.3699697604582965e-13,
+     "se_ratio": 1.0529229448920459,
+     "n_level": 1990,
+     "tested": true,
+     "q": null
+    },
+    "race=Other": {
+     "covariate": "race",
+     "level": "Other",
+     "reference": "Caucasian",
+     "odds_ratio": 1.249474603558699,
+     "ci": [
+      1.0901108811361804,
+      1.4321357688962826
+     ],
+     "p": 0.0013774449472108742,
+     "p_model_based": 0.000879606029245327,
+     "se_ratio": 1.039730548266484,
+     "n_level": 1457,
+     "tested": true,
+     "q": null
+    },
+    "race=Unknown": {
+     "covariate": "race",
+     "level": "Unknown",
+     "reference": "Caucasian",
+     "odds_ratio": 1.1881501244992918,
+     "ci": [
+      1.0627662003636367,
+      1.3283266986329207
+     ],
+     "p": 0.0024469877280043806,
+     "p_model_based": 0.0020416440499646453,
+     "se_ratio": 1.0179171314943332,
+     "n_level": 2221,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=diabetes": {
+     "covariate": "diag_1_group",
+     "level": "diabetes",
+     "reference": "circulatory",
+     "odds_ratio": 1.6821240496728664,
+     "ci": [
+      1.5821959089268178,
+      1.7883634400287909
+     ],
+     "p": 3.3864587992966e-62,
+     "p_model_based": 2.7025632611793744e-67,
+     "se_ratio": 1.041376198405226,
+     "n_level": 8051,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=digestive": {
+     "covariate": "diag_1_group",
+     "level": "digestive",
+     "reference": "circulatory",
+     "odds_ratio": 0.5990333624761861,
+     "ci": [
+      0.5572969144741967,
+      0.6438954891722093
+     ],
+     "p": 5.734437394195694e-44,
+     "p_model_based": 9.521298260405632e-47,
+     "se_ratio": 1.0324060152898662,
+     "n_level": 9314,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=genitourinary": {
+     "covariate": "diag_1_group",
+     "level": "genitourinary",
+     "reference": "circulatory",
+     "odds_ratio": 0.7627494119518176,
+     "ci": [
+      0.700068398471658,
+      0.831042604841128
+     ],
+     "p": 6.013386109027335e-10,
+     "p_model_based": 5.583498523870236e-10,
+     "se_ratio": 1.001887052905612,
+     "n_level": 4990,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=injury": {
+     "covariate": "diag_1_group",
+     "level": "injury",
+     "reference": "circulatory",
+     "odds_ratio": 0.5792231550464194,
+     "ci": [
+      0.5333260531640414,
+      0.6290700807723995
+     ],
+     "p": 1.9479518089152324e-38,
+     "p_model_based": 1.5523225749941538e-39,
+     "se_ratio": 1.014853437879088,
+     "n_level": 6825,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=musculoskeletal": {
+     "covariate": "diag_1_group",
+     "level": "musculoskeletal",
+     "reference": "circulatory",
+     "odds_ratio": 0.5090823634683556,
+     "ci": [
+      0.4609938718697595,
+      0.5621871972904369
+     ],
+     "p": 1.430163850023812e-40,
+     "p_model_based": 1.511541491179663e-41,
+     "se_ratio": 1.0124887664856146,
+     "n_level": 4932,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=neoplasms": {
+     "covariate": "diag_1_group",
+     "level": "neoplasms",
+     "reference": "circulatory",
+     "odds_ratio": 0.48298435214782,
+     "ci": [
+      0.4262134211459752,
+      0.547317078360502
+     ],
+     "p": 3.8483098154425445e-30,
+     "p_model_based": 1.1115120041252567e-30,
+     "se_ratio": 1.0094285140756005,
+     "n_level": 3128,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=other": {
+     "covariate": "diag_1_group",
+     "level": "other",
+     "reference": "circulatory",
+     "odds_ratio": 0.885632206107438,
+     "ci": [
+      0.8410657222415713,
+      0.9325601837681927
+     ],
+     "p": 4.018709490250168e-06,
+     "p_model_based": 2.364564684917119e-06,
+     "se_ratio": 1.0236552722558154,
+     "n_level": 17677,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=respiratory": {
+     "covariate": "diag_1_group",
+     "level": "respiratory",
+     "reference": "circulatory",
+     "odds_ratio": 0.9763238360025815,
+     "ci": [
+      0.924937490525786,
+      1.0305650300810483
+     ],
+     "p": 0.3850762691476689,
+     "p_model_based": 0.3780521266974607,
+     "se_ratio": 1.0148631417684824,
+     "n_level": 13879,
+     "tested": false,
+     "q": null
+    },
+    "admission_type=unknown": {
+     "covariate": "admission_type",
+     "level": "unknown",
+     "reference": "other types",
+     "odds_ratio": 0.8496171443969225,
+     "ci": [
+      0.7983686020569477,
+      0.9041554116649636
+     ],
+     "p": 2.8364262068389323e-07,
+     "p_model_based": 5.868664011071146e-08,
+     "se_ratio": 1.0562433768425714,
+     "n_level": 10081,
+     "tested": false,
+     "q": null
+    }
+   }
+  },
+  "glucose_requested": {
+   "outcome": "glucose_requested",
+   "n": 98470,
+   "n_patients": 69303,
+   "rate": 0.05215801767035645,
+   "events": 5136,
+   "terms": {
+    "sex=Male": {
+     "covariate": "sex",
+     "level": "Male",
+     "reference": "Female",
+     "odds_ratio": 0.964039172198155,
+     "ci": [
+      0.8746893998317006,
+      1.0625160493671524
+     ],
+     "p": 0.4605125976564669,
+     "p_model_based": 0.29343948476302817,
+     "se_ratio": 1.4235797819988847,
+     "n_level": 45505,
+     "tested": true,
+     "q": null
+    },
+    "age_band=20-39": {
+     "covariate": "age_band",
+     "level": "20-39",
+     "reference": "60-79",
+     "odds_ratio": 0.7453368601819396,
+     "ci": [
+      0.5746211372697198,
+      0.9667709715403577
+     ],
+     "p": 0.026788306654456202,
+     "p_model_based": 0.0004980147938611409,
+     "se_ratio": 1.572220551435734,
+     "n_level": 5412,
+     "tested": true,
+     "q": null
+    },
+    "age_band=40-59": {
+     "covariate": "age_band",
+     "level": "40-59",
+     "reference": "60-79",
+     "odds_ratio": 0.8130887879274618,
+     "ci": [
+      0.7207698594694237,
+      0.9172322737524159
+     ],
+     "p": 0.0007655596667902317,
+     "p_model_based": 1.7935656173758374e-06,
+     "se_ratio": 1.419154841479418,
+     "n_level": 26663,
+     "tested": true,
+     "q": null
+    },
+    "age_band=80+": {
+     "covariate": "age_band",
+     "level": "80+",
+     "reference": "60-79",
+     "odds_ratio": 1.405276518023264,
+     "ci": [
+      1.252030509095917,
+      1.5772795293411666
+     ],
+     "p": 7.686593728731537e-09,
+     "p_model_based": 1.747772350190633e-14,
+     "se_ratio": 1.3277383822091584,
+     "n_level": 19018,
+     "tested": true,
+     "q": null
+    },
+    "race=AfricanAmerican": {
+     "covariate": "race",
+     "level": "AfricanAmerican",
+     "reference": "Caucasian",
+     "odds_ratio": 0.582334242384394,
+     "ci": [
+      0.5004994459083433,
+      0.6775495410148927
+     ],
+     "p": 2.5952306324626765e-12,
+     "p_model_based": 4.043320001733896e-21,
+     "se_ratio": 1.3477273789526352,
+     "n_level": 18538,
+     "tested": true,
+     "q": null
+    },
+    "race=Asian": {
+     "covariate": "race",
+     "level": "Asian",
+     "reference": "Caucasian",
+     "odds_ratio": 0.6211132871735098,
+     "ci": [
+      0.38433458933385245,
+      1.0037652769482408
+     ],
+     "p": 0.05182094015322679,
+     "p_model_based": 0.04050907847835185,
+     "se_ratio": 1.0534303841178208,
+     "n_level": 624,
+     "tested": true,
+     "q": null
+    },
+    "race=Hispanic": {
+     "covariate": "race",
+     "level": "Hispanic",
+     "reference": "Caucasian",
+     "odds_ratio": 1.0976666098193157,
+     "ci": [
+      0.8408489770933333,
+      1.4329231754283152
+     ],
+     "p": 0.4931792950111371,
+     "p_model_based": 0.33873516132230486,
+     "se_ratio": 1.3960629898863686,
+     "n_level": 1990,
+     "tested": true,
+     "q": null
+    },
+    "race=Other": {
+     "covariate": "race",
+     "level": "Other",
+     "reference": "Caucasian",
+     "odds_ratio": 0.7671779297562831,
+     "ci": [
+      0.5409560508934682,
+      1.0880033136389546
+     ],
+     "p": 0.13706553212461572,
+     "p_model_based": 0.06802084993492892,
+     "se_ratio": 1.2273734672894399,
+     "n_level": 1457,
+     "tested": true,
+     "q": null
+    },
+    "race=Unknown": {
+     "covariate": "race",
+     "level": "Unknown",
+     "reference": "Caucasian",
+     "odds_ratio": 0.5999449967412147,
+     "ci": [
+      0.44088663625833924,
+      0.816386729635215
+     ],
+     "p": 0.0011512030344284713,
+     "p_model_based": 0.0010055180269021554,
+     "se_ratio": 1.0117746401341028,
+     "n_level": 2221,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=diabetes": {
+     "covariate": "diag_1_group",
+     "level": "diabetes",
+     "reference": "circulatory",
+     "odds_ratio": 1.8205861044804816,
+     "ci": [
+      1.5417008392070393,
+      2.1499201917359128
+     ],
+     "p": 1.6331128564858924e-12,
+     "p_model_based": 7.942694806398514e-18,
+     "se_ratio": 1.2177256242554868,
+     "n_level": 8051,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=digestive": {
+     "covariate": "diag_1_group",
+     "level": "digestive",
+     "reference": "circulatory",
+     "odds_ratio": 1.559787824876087,
+     "ci": [
+      1.3617376574157054,
+      1.7866422694433555
+     ],
+     "p": 1.3933220749313172e-10,
+     "p_model_based": 5.819957074245601e-13,
+     "se_ratio": 1.1228082366184764,
+     "n_level": 9314,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=genitourinary": {
+     "covariate": "diag_1_group",
+     "level": "genitourinary",
+     "reference": "circulatory",
+     "odds_ratio": 0.9088429025762057,
+     "ci": [
+      0.7608780687608226,
+      1.085581850070105
+     ],
+     "p": 0.29176854567714006,
+     "p_model_based": 0.2791026537061314,
+     "se_ratio": 1.0266421769828264,
+     "n_level": 4990,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=injury": {
+     "covariate": "diag_1_group",
+     "level": "injury",
+     "reference": "circulatory",
+     "odds_ratio": 0.943785973602667,
+     "ci": [
+      0.8086499285352631,
+      1.1015050302206162
+     ],
+     "p": 0.463075145754554,
+     "p_model_based": 0.45709752601165743,
+     "se_ratio": 1.0134125843442277,
+     "n_level": 6825,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=musculoskeletal": {
+     "covariate": "diag_1_group",
+     "level": "musculoskeletal",
+     "reference": "circulatory",
+     "odds_ratio": 0.5277800375683744,
+     "ci": [
+      0.43661208725314243,
+      0.6379845546836035
+     ],
+     "p": 3.970984519544297e-11,
+     "p_model_based": 5.366621076656289e-12,
+     "se_ratio": 1.0439609393798441,
+     "n_level": 4932,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=neoplasms": {
+     "covariate": "diag_1_group",
+     "level": "neoplasms",
+     "reference": "circulatory",
+     "odds_ratio": 0.9146642592599629,
+     "ci": [
+      0.7276286548670466,
+      1.1497770209729348
+     ],
+     "p": 0.4447425439182989,
+     "p_model_based": 0.4178314212755224,
+     "se_ratio": 1.0601667266669137,
+     "n_level": 3128,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=other": {
+     "covariate": "diag_1_group",
+     "level": "other",
+     "reference": "circulatory",
+     "odds_ratio": 1.2568345563548897,
+     "ci": [
+      1.1243806805355876,
+      1.4048917145173196
+     ],
+     "p": 5.741012432099518e-05,
+     "p_model_based": 1.2696393172141908e-05,
+     "se_ratio": 1.0850223217239112,
+     "n_level": 17677,
+     "tested": false,
+     "q": null
+    },
+    "diag_1_group=respiratory": {
+     "covariate": "diag_1_group",
+     "level": "respiratory",
+     "reference": "circulatory",
+     "odds_ratio": 1.7239212491862446,
+     "ci": [
+      1.5256566072314628,
+      1.94795110466492
+     ],
+     "p": 2.4038584534576405e-18,
+     "p_model_based": 2.0006459225507e-24,
+     "se_ratio": 1.1674119150655882,
+     "n_level": 13879,
+     "tested": false,
+     "q": null
+    },
+    "admission_type=unknown": {
+     "covariate": "admission_type",
+     "level": "unknown",
+     "reference": "other types",
+     "odds_ratio": 57.69787471832968,
+     "ci": [
+      52.525969929441246,
+      63.37902472784438
+     ],
+     "p": 0.0,
+     "p_model_based": 0.0,
+     "se_ratio": 1.2684442712727964,
+     "n_level": 10081,
+     "tested": false,
+     "q": null
+    }
+   }
+  }
+ },
+ "recording": {
+  "hba1c_requested": {
+   "events": 16388,
+   "share_of_encounters_source": 0.10237635828171017,
+   "share_of_events_source": 0.08969978032706859,
+   "rate_source": 0.14581886717587542,
+   "rate_other": 0.1687766577289029,
+   "rate_by_decile": [
+    0.1787346399918757,
+    0.1749771504011374,
+    0.15608814867472326,
+    0.1438001421752818,
+    0.08936731999593785,
+    0.15984563826546155,
+    0.20290443789986798,
+    0.19874073321823907,
+    0.17995328526454757,
+    0.17985173149182493
+   ],
+   "next_if_now": 0.23832092078537576,
+   "next_if_not_now": 0.1149336998706339,
+   "n_pairs": 29167
+  },
+  "glucose_requested": {
+   "events": 5136,
+   "share_of_encounters_source": 0.10237635828171017,
+   "share_of_events_source": 0.7969236760124611,
+   "rate_source": 0.40601130840194427,
+   "rate_other": 0.011800110873524986,
+   "rate_by_decile": [
+    0.08835178226871128,
+    0.11963034426728952,
+    0.15070579872042247,
+    0.08378186249619174,
+    0.010460038590433634,
+    0.012998882908500051,
+    0.014928404590230527,
+    0.015842388544734437,
+    0.013506651772113335,
+    0.011374022544937544
+   ],
+   "next_if_now": 0.8880179171332587,
+   "next_if_not_now": 0.0077425952302691645,
+   "n_pairs": 29167
+  }
+ },
+ "crude": {
+  "hba1c_requested": {
+   "sex": {
+    "Female": {
+     "n": 52965,
+     "estimate": 0.15918059647083282,
+     "ci": [
+      0.15601400695741177,
+      0.16277167424559594
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Male": {
+     "n": 45505,
+     "estimate": 0.1748599112033844,
+     "ci": [
+      0.1712249953299761,
+      0.1785270944237709
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   },
+   "age_band": {
+    "20-39": {
+     "n": 5412,
+     "estimate": 0.24741315841674805,
+     "ci": [
+      0.23452625423669815,
+      0.2608467906713486
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "40-59": {
+     "n": 26663,
+     "estimate": 0.20811611413955688,
+     "ci": [
+      0.20284160040318966,
+      0.2130613476037979
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "60-79": {
+     "n": 47377,
+     "estimate": 0.14798319339752197,
+     "ci": [
+      0.14454914778470992,
+      0.15140695124864578
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "80+": {
+     "n": 19018,
+     "estimate": 0.13087601959705353,
+     "ci": [
+      0.1261216253042221,
+      0.13603687658905983
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   },
+   "race": {
+    "AfricanAmerican": {
+     "n": 18538,
+     "estimate": 0.1811414361000061,
+     "ci": [
+      0.1751072257757187,
+      0.1877300027757883
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Asian": {
+     "n": 624,
+     "estimate": 0.20673076808452606,
+     "ci": [
+      0.17578628659248355,
+      0.23967457637190817
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Caucasian": {
+     "n": 73640,
+     "estimate": 0.1590983122587204,
+     "ci": [
+      0.15618158243596553,
+      0.16182054951786995
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Hispanic": {
+     "n": 1990,
+     "estimate": 0.23768843710422516,
+     "ci": [
+      0.2191284265369177,
+      0.2571864478290081
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Other": {
+     "n": 1457,
+     "estimate": 0.20178449153900146,
+     "ci": [
+      0.18049767650663853,
+      0.22236780673265458
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Unknown": {
+     "n": 2221,
+     "estimate": 0.18820351362228394,
+     "ci": [
+      0.17174634821712972,
+      0.20569710992276669
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   },
+   "diag_1_group": {
+    "circulatory": {
+     "n": 29674,
+     "estimate": 0.17624856531620026,
+     "ci": [
+      0.1716996893286705,
+      0.18096808940172196
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "diabetes": {
+     "n": 8051,
+     "estimate": 0.2944975793361664,
+     "ci": [
+      0.2844028227031231,
+      0.305745206028223
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "digestive": {
+     "n": 9314,
+     "estimate": 0.11906807124614716,
+     "ci": [
+      0.11218835972249508,
+      0.12616522274911404
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "genitourinary": {
+     "n": 4990,
+     "estimate": 0.14108216762542725,
+     "ci": [
+      0.13036268390715122,
+      0.15078210979700088
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "injury": {
+     "n": 6825,
+     "estimate": 0.11179487407207489,
+     "ci": [
+      0.10457112267613411,
+      0.11911775097250939
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "musculoskeletal": {
+     "n": 4932,
+     "estimate": 0.10036496073007584,
+     "ci": [
+      0.09174911957234144,
+      0.10913912300020456
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "neoplasms": {
+     "n": 3128,
+     "estimate": 0.09430946409702301,
+     "ci": [
+      0.08500139750540257,
+      0.10512951146811246
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "other": {
+     "n": 17677,
+     "estimate": 0.1682412177324295,
+     "ci": [
+      0.16248153597116471,
+      0.1742254864424467
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "respiratory": {
+     "n": 13879,
+     "estimate": 0.1763095259666443,
+     "ci": [
+      0.16989880539476873,
+      0.18282780349254607
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   }
+  },
+  "glucose_requested": {
+   "sex": {
+    "Female": {
+     "n": 52965,
+     "estimate": 0.052657414227724075,
+     "ci": [
+      0.049767912551760676,
+      0.05550782131031155
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Male": {
+     "n": 45505,
+     "estimate": 0.05157674849033356,
+     "ci": [
+      0.04865514971315861,
+      0.05464959321543574
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   },
+   "age_band": {
+    "20-39": {
+     "n": 5412,
+     "estimate": 0.0441611222922802,
+     "ci": [
+      0.03496178798377514,
+      0.055134714394807806
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "40-59": {
+     "n": 26663,
+     "estimate": 0.04489367455244064,
+     "ci": [
+      0.04107454009354115,
+      0.0485429554246366
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "60-79": {
+     "n": 47377,
+     "estimate": 0.05126960203051567,
+     "ci": [
+      0.048294827807694674,
+      0.05414601843804121
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "80+": {
+     "n": 19018,
+     "estimate": 0.06683142483234406,
+     "ci": [
+      0.06157401679083705,
+      0.0716689333319664
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   },
+   "race": {
+    "AfricanAmerican": {
+     "n": 18538,
+     "estimate": 0.02443629316985607,
+     "ci": [
+      0.0212754319421947,
+      0.027748064463958146
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Asian": {
+     "n": 624,
+     "estimate": 0.0416666679084301,
+     "ci": [
+      0.026406134152784946,
+      0.06061197165399789
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Caucasian": {
+     "n": 73640,
+     "estimate": 0.059057578444480896,
+     "ci": [
+      0.05651805680245161,
+      0.061525520868599415
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Hispanic": {
+     "n": 1990,
+     "estimate": 0.09296482056379318,
+     "ci": [
+      0.07432657349854709,
+      0.1131114324554801
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Other": {
+     "n": 1457,
+     "estimate": 0.04735758528113365,
+     "ci": [
+      0.03328365646302701,
+      0.06328341085463762
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "Unknown": {
+     "n": 2221,
+     "estimate": 0.024313371628522873,
+     "ci": [
+      0.017486989591270687,
+      0.03191974386572838
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   },
+   "diag_1_group": {
+    "circulatory": {
+     "n": 29674,
+     "estimate": 0.043607197701931,
+     "ci": [
+      0.041032974049448966,
+      0.04643625887110829
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "diabetes": {
+     "n": 8051,
+     "estimate": 0.05775680020451546,
+     "ci": [
+      0.051533125527203086,
+      0.06407965701073408
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "digestive": {
+     "n": 9314,
+     "estimate": 0.06581490486860275,
+     "ci": [
+      0.059405539836734536,
+      0.07263486683368682
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "genitourinary": {
+     "n": 4990,
+     "estimate": 0.04248496890068054,
+     "ci": [
+      0.03672297419980169,
+      0.048029315937310454
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "injury": {
+     "n": 6825,
+     "estimate": 0.04219780117273331,
+     "ci": [
+      0.03715112702921033,
+      0.04741767877712846
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "musculoskeletal": {
+     "n": 4932,
+     "estimate": 0.03467153385281563,
+     "ci": [
+      0.029309169668704272,
+      0.040163141768425704
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "neoplasms": {
+     "n": 3128,
+     "estimate": 0.040920715779066086,
+     "ci": [
+      0.03355281725525856,
+      0.0481794074177742
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "other": {
+     "n": 17677,
+     "estimate": 0.05572212487459183,
+     "ci": [
+      0.051781526673585175,
+      0.05989325558766723
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    },
+    "respiratory": {
+     "n": 13879,
+     "estimate": 0.07061027735471725,
+     "ci": [
+      0.06544739920645952,
+      0.07590705584734678
+     ],
+     "n_nan": 0,
+     "ci_reliable": true
+    }
+   }
+  }
+ },
+ "n_boot": 1000
+}

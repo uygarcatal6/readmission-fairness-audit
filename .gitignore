@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: raw files are not committed (the public UCI data is fetched by data/download.py)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+data/raw/
+# data/ documentation, profile and download script are committed
+!data/*.md
+!data/*.py
+!data/profile.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model artefacts
+*.pkl
+*.joblib
+
+# Approved-protocol runs: per-encounter predictions and checkpoints stay out (regenerable).
+# Exception: the five summary JSONs of the full run (aggregate statistics only, ~2 MB), which
+# the notebook, scripts/make_figures.py and slides/build_slides.py read.
+outputs/approved*/*
+!outputs/approved/summary.json
+!outputs/approved/fairness.json
+!outputs/approved/mitigation.json
+!outputs/approved/sources.json
+!outputs/approved/ordering.json
+
+# Quick check runs (--quick)
+outputs/reports/*_quick.md
+
+# LaTeX build files (paper/main.pdf is not committed, see paper/README.md)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/main.pdf
+
+# Local notes (never committed)
+notes/
+TODO.md
+docs/AUDIT_*.md

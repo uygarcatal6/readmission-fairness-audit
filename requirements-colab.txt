@@ -1,0 +1,12 @@
+# Packages for the Colab notebook (notebooks/readmission_fairness_audit.ipynb) and the
+# readmission/ package it imports: the runtime part of requirements.txt, same version bounds
+# (no slides, test or lint tools).
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.6,<1.7
+scipy
+joblib
+threadpoolctl
+statsmodels>=0.14
+fairlearn>=0.13
+matplotlib>=3.8
